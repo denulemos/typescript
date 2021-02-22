@@ -9,6 +9,7 @@
 * Muchos de los frameworks usan TS por defecto, como Angular, y React permite su aplicacion.
 * Se busca que el help del codigo sea claro para el desarrollador.
 * Es mantenido por Microsoft.
+* En TS el OR (||) se le dice Union.
 * Youtube, Facebook, Medium, Amazon, etc.. usan TS.
 * Hay 2 tipos de errores: Succint y Detailed.
 
@@ -34,5 +35,3 @@
 * `object` es un objeto
 * `declare function create (o: object | null) : void` esta funcion puede recibir o un objeto o un null, nada mas.
 * Si quiero acceder a un metodo exclusivo de un tipo de dato, le aviso a TS con anticipacion `let func : number = (valor as string).length`
-
-
