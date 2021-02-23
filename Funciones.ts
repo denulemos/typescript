@@ -23,3 +23,11 @@ function funcion4(x: number, y: number) : number{ // No siempre es necesario acl
 const funcion5 = (x: number = 10, y?: number) => { // Si no llega x es 10. El parametro "y" puede no estar
   return x;
 }
+
+//------------------- Con params REST -------------------
+
+const cartaPostres = (postre: string, ...frutas: string[]) : void =>{ // ...frutas cuando no sabemos cuantos parametros vamos a recibir de frutas
+  console.log(`${frutas}`);
+}
+
+cartaPostres("Postre1", "Naranja", "Manzana", "Banana");

@@ -19,3 +19,5 @@ let nombres: string[] = ["1", "2", "3", "4"];
 let coleccionNumeros: Array<number> = [1, 2, 3, 4, 5];
 
 // ----------- Tupla -------------------
+let tupla: [number, string, boolean];
+tupla = [23, "hola", true];
