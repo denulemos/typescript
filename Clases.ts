@@ -26,6 +26,16 @@ class Animal{
     this.edad= edad;
   }
 
+  // GETTER
+  get getNombre(): string {
+    return this.nombre;
+  }
+
+  // SETTER
+  set setNombre(nombre: string): void {
+    this.nombre = nombre;
+  }
+
   public esGrande() {
     if (this.tamaño > 10) {
       return true;
