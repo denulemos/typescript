@@ -20,7 +20,7 @@
 * Para verificar la instalacion, corremos `tsc` en consola.
 * Para ejecutar un archivo TS corremos `tsc .\Archivo.ts` en consola, esto nos generará un archivo .js con el codigo TS compilado a JS, el cual lo ejecutamos con `node Archivo.js`
 
-## Tipos de datos 👀️ 
+## Tipos de datos 👀️
 
 * `boolean`
 * `number `(float o int)
@@ -36,7 +36,7 @@
 * `declare function create (o: object | null) : void` esta funcion puede recibir o un objeto o un null, nada mas.
 * Si quiero acceder a un metodo exclusivo de un tipo de dato, le aviso a TS con anticipacion `let func : number = (valor as string).length`
 
-### Tipos de datos Genericos (¿Porqué no usar any?) 
+### Tipos de datos Genericos (¿Porqué no usar any?)
 
 TS esta pensado para ser un lenguaje tipado, y si usamos tipos de datos `Any`, es contraproducente, ya que no es un tipo de dato en particular, y genera ciertos errores.
 
@@ -44,5 +44,7 @@ Por ejemplo, cuando creo una variable de tipo `String`, puedo acceder a distinto
 
 Para eso nace el tipado generico.
 
+### Modulos
 
+Son pequeñas porciones de codigo reutilizables dentro y fuera del archivo. Cualquier variable, clase o interfaz puede ser exportada.
 
